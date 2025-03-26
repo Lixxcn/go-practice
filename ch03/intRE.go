@@ -8,7 +8,9 @@ import (
 
 func matchInt(s string) bool {
 	t := []byte(s)
+	fmt.Println("t:", t)
 	re := regexp.MustCompile(`^[-+]?\d+$`)
+	fmt.Println("re:", re)
 	return re.Match(t)
 }
 

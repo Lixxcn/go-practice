@@ -36,7 +36,7 @@
 **主题**：Go语言的高级数据结构和组织
 **技术点**：
 - 结构体（[structures.go](ch03/structures.go), [sliceStruct.go](ch03/sliceStruct.go)）
-- 映射（Map）的使用（[forMaps.go](ch03/forMaps.go), [nilMap.go](ch03/nilMap.go)）
+- 映射（Map）的使用（[forMaps.go](ch03/forMaps.go), [nilMap.go](ch03/nilMap.go),[nilMap2.go](ch03/nilMap2.go)）
 - 正则表达式（[diffRegExp.go](ch03/diffRegExp.go), [intRE.go](ch03/intRE.go), [nameSurRE.go](ch03/nameSurRE.go)）
 - CSV数据处理（[csvData.go](ch03/csvData.go)）
 

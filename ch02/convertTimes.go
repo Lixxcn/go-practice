@@ -20,6 +20,8 @@ func main() {
 		return
 	}
 
+	now = time.Now()
+
 	// Local time
 	loc, _ := time.LoadLocation("Local")
 	fmt.Printf("Current Location: %s\n", now.In(loc))

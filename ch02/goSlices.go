@@ -15,6 +15,7 @@ func main() {
 
 	// A slice with a length of 4
 	t := make([]int, 4)
+	fmt.Println(t)
 	t[0] = -1
 	t[1] = -2
 	t[2] = -3
@@ -42,4 +43,3 @@ func main() {
 	make2D[1] = []int{-1, -2, -3, -4}
 	fmt.Println(make2D)
 }
-

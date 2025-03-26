@@ -11,6 +11,8 @@ func main() {
 		"three": 3, "four": 4,
 	}
 
+	fmt.Println(m)
+
 	maps.DeleteFunc(m, delete)
 	fmt.Println(m)
 

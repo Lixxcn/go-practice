@@ -11,7 +11,9 @@ import (
 // This function returns (secure) random bytes
 func generateBytes(n int64) ([]byte, error) {
 	b := make([]byte, n)
+	fmt.Println(b)
 	_, err := rand.Read(b)
+	fmt.Println(b)
 	if err != nil {
 		return nil, err
 	}

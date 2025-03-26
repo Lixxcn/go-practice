@@ -29,3 +29,10 @@ go.sum
 grafana_data
 prometheus_data
 
+
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .log 文件夹
+*.log/*
+

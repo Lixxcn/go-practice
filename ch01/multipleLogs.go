@@ -5,6 +5,7 @@ import (
 	"io"
 	"log"
 	"os"
+	"time"
 )
 
 func main() {
@@ -19,4 +20,5 @@ func main() {
 	w := io.MultiWriter(file, os.Stderr)
 	logger := log.New(w, "myApp: ", log.LstdFlags)
 	logger.Printf("BOOK %d", os.Getpid())
+	time.Sleep(60 * time.Second)
 }
